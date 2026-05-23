@@ -21,7 +21,7 @@ public class DataController {
                 return "The actual version is 1.0.0";
         }
 
-        @GetMapping("/fiap")
+        @GetMapping("/v2/fiap")
         public String turma() {
                 return "DEVOPS FIAP - VERSAO 2.0";
         }
