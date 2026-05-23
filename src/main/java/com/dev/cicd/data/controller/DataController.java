@@ -21,6 +21,11 @@ public class DataController {
                 return "The actual version is 1.0.0";
         }
 
+        @GetMapping("/fiap")
+        public String turma() {
+                return "DEVOPS FIAP - VERSAO 2.0";
+        }
+
         @GetMapping("/nations")
         public JsonNode getRandomNations() {
                 var objectMapper = new ObjectMapper();
